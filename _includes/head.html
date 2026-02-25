@@ -1,15 +1,17 @@
-<head>
+  <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width initial-scale=1" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    {% unless page.title %}<meta name="description" content="{{ site.description }}">{% endunless %}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% unless page.title %}<meta property="og:description" content="{{ site.description }}">{% endunless %}
+    <meta property="og:locale" content="en_IE">
+    <meta property="og:site_name" content="{{ site.title }}">
+    <meta property="og:title" content="{{ page.title }}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
     <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
-{% unless page.title %}
-    <meta name="description" content="{{ site.description }}">
-{% endunless %}
-    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-{% if page.redirect %}
-    <meta http-equiv="refresh" content="0; url={{ page.redirect }}">
-    <link rel="canonical" href="{{ page.redirect }}" />
-{% endif %}
-</head>
+    <link rel="alternate" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}" hreflang="en">
+    <link rel="author" href="https://novapatch.ie/en/about">
+    <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=EB+Garamond&display=swap">
+  </head>

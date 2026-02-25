@@ -6,16 +6,10 @@ layout: default
     <h1 class="post-title">{{ page.title | replace: ': ', ':<br>' }}</h1>
     <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
   </header>
-
   <article class="post-content">
     {% if page.photo %}
       <img src="{{ page.photo }}" style="float: right; border: 1px solid #000; margin-left: 1em">
     {% endif %}
     {{ content }}
-    {% unless page.bio == false %}{% include bio.md %}{% endunless %}
   </article>
-
-  <p class="rss-subscribe" style="font-size: 0.75em">
-    <a href="{{ "/feed.xml" | prepend: site.baseurl }}"><img src="/img/rss.png" alt="RSS"> Subscribe via RSS</a>
-  </p>
 </div>
