@@ -3,61 +3,41 @@
   <url>
     <loc>https://novapatch.ie/en/</loc>
     <lastmod>2026-02-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://novapatch.ie/en/about</loc>
     <lastmod>2026-02-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://novapatch.ie/en/characters-for-humans</loc>
     <lastmod>2017-10-19</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://novapatch.ie/en/cldr-tldr</loc>
     <lastmod>2015-06-15</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
   </url>
   <url>
     <loc>https://novapatch.ie/en/hello-my-name-is</loc>
     <lastmod>2016-12-15</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://novapatch.ie/en/making-milk-out-of-nuts-and-seeds</loc>
     <lastmod>2015-07-15</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://novapatch.ie/en/talks</loc>
     <lastmod>2015-07-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://novapatch.ie/en/unicode-beyond-just-characters</loc>
     <lastmod>2015-10-27</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://novapatch.ie/en/urban-foraging-for-edible-wild-plants</loc>
     <lastmod>2015-07-15</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://novapatch.ie/en/when-a-space-is-not-just-a-space</loc>
     <lastmod>2026-02-24</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
   </url>
 </urlset>
