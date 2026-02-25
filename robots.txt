@@ -1,1 +1,1 @@
-Sitemap: https://novapatch.ie/sitemap.txt
+Sitemap: https://novapatch.ie/sitemap.xml
