@@ -4,13 +4,17 @@ layout: page
 permalink: /en/about
 ---
 
-## Professional
+**Nova Patch** (they/them), Dublin, Ireland.
 
-Nova Patch (they/them) is Director of Internationalization & Localization at Shutterstock, with over two decades of experience working at the intersection of language, technology, and culture. Drawing on a background in software engineering and product management, they have led the expansion of global platforms into more than 30 languages through scalable, inclusive, and culturally grounded localization approaches. A lifetime individual member of the Unicode Consortium and co-founder of Shutterstock’s LGBTQ+ employee resource group, Nova is committed to advancing open standards and creating digital experiences that support diverse users worldwide.
+I work at the intersection of language, technology, and culture.
 
-## Naturalist
+My background is in software engineering and product development. I’m interested in how global systems are built: how internationalization, character encoding, typography, search, and metadata shape everyday experience across languages.
 
-Nova is also an amateur lichenologist, specializing on the urban lichens of New York City, and runs the website and open data project [Lichens of New York City](https://www.inaturalist.org/projects/lichens-of-new-york-city) on iNaturalist. They hold a botany certificate from the New York Botanical Garden and are an active member of the New York Mycological Society. Past lichen talks and walks have been given to the Northeast Mycological Federation (NEMF) Samuel Ristich Foray, Connecticut–Westchester Mycological Association (COMA) Clark Rogerson Foray, New York Mycological Society, Green-Wood Cemetery, and Boston Skillshare.
+That work has touched more than 30 languages, through product localization, open source development, and contributions to open standards. I’m a lifetime individual member of the Unicode Consortium and care about durable digital infrastructure and inclusive design.
+
+I’m also drawn to systems of observation and taxonomy in natural history, particularly in the study of lichens and urban ecosystems. The same questions return there: how we name things, how we classify them, and what follows from those decisions.
+
+This site is a digital garden for ongoing work. Notes and observations accumulate slowly.
 
 **Links:**
 [Bluesky](https://bsky.app/profile/novapatch.ie) ·
