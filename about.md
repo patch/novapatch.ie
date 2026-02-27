@@ -14,9 +14,9 @@ That work has touched more than 30 languages, through product localization, open
 
 I’m also drawn to systems of observation and taxonomy in natural history, particularly in the study of lichens and urban ecosystems. The same questions return there: how we name things, how we classify them, and what follows from those decisions.
 
-This site is a digital garden for ongoing work. Notes and observations accumulate slowly.
+This site is a digital garden for ongoing work.
 
-**Links:**
+## Links
 [Bluesky](https://bsky.app/profile/novapatch.ie) ·
 [GitHub](https://github.com/patch) ·
 [iNaturalist](https://www.inaturalist.org/people/novapatch) ·
