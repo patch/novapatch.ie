@@ -7,6 +7,34 @@
   <url>
     <loc>https://novapatch.ie/en/about</loc>
     <lastmod>2026-02-27</lastmod>
+    <xhtml:link rel="alternate" href="https://novapatch.ie/en/about" hreflang="en" />
+    <xhtml:link rel="alternate" href="https://novapatch.ie/eo/pri" hreflang="eo" />
+    <xhtml:link rel="alternate" href="https://novapatch.ie/ga/fúm" hreflang="ga" />
+    <xhtml:link rel="alternate" href="https://novapatch.ie/nn/om" hreflang="nn" />
+  </url>
+  <url>
+    <loc>https://novapatch.ie/eo/pri</loc>
+    <lastmod>2026-03-03</lastmod>
+    <xhtml:link rel="alternate" href="https://novapatch.ie/en/about" hreflang="en" />
+    <xhtml:link rel="alternate" href="https://novapatch.ie/eo/pri" hreflang="eo" />
+    <xhtml:link rel="alternate" href="https://novapatch.ie/ga/fúm" hreflang="ga" />
+    <xhtml:link rel="alternate" href="https://novapatch.ie/nn/om" hreflang="nn" />
+  </url>
+  <url>
+    <loc>https://novapatch.ie/ga/fúm</loc>
+    <lastmod>2026-03-03</lastmod>
+    <xhtml:link rel="alternate" href="https://novapatch.ie/en/about" hreflang="en" />
+    <xhtml:link rel="alternate" href="https://novapatch.ie/eo/pri" hreflang="eo" />
+    <xhtml:link rel="alternate" href="https://novapatch.ie/ga/fúm" hreflang="ga" />
+    <xhtml:link rel="alternate" href="https://novapatch.ie/nn/om" hreflang="nn" />
+  </url>
+  <url>
+    <loc>https://novapatch.ie/nn/om</loc>
+    <lastmod>2026-03-03</lastmod>
+    <xhtml:link rel="alternate" href="https://novapatch.ie/en/about" hreflang="en" />
+    <xhtml:link rel="alternate" href="https://novapatch.ie/eo/pri" hreflang="eo" />
+    <xhtml:link rel="alternate" href="https://novapatch.ie/ga/fúm" hreflang="ga" />
+    <xhtml:link rel="alternate" href="https://novapatch.ie/nn/om" hreflang="nn" />
   </url>
   <url>
     <loc>https://novapatch.ie/en/characters-for-humans</loc>

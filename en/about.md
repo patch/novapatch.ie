@@ -1,8 +1,12 @@
 ---
-title: 'About'
-language: en
+title: About
 layout: page
 permalink: /en/about
+language: en
+alternates:
+  eo: pri
+  ga: fúm
+  nn: om
 ---
 
 **Nova Patch** (they/them), Dublin, Ireland.
@@ -16,6 +20,7 @@ I’m also drawn to systems of observation and taxonomy in natural history, part
 This site is a digital garden for ongoing work.
 
 ## Links
+
 [Bluesky](https://bsky.app/profile/novapatch.ie) ·
 [GitHub](https://github.com/patch) ·
 [iNaturalist](https://www.inaturalist.org/people/novapatch) ·

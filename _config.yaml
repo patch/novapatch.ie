@@ -9,5 +9,14 @@ instagram:   novapatch
 linkedin:    novapatch
 encoding:    utf-8
 markdown:    kramdown
-locale:      en_IE
 timezone:    Europe/Dublin
+locales:
+  en: en_IE
+  eo: eo_001
+  ga: ga_IE
+  nn: nn_NO
+about:
+  en: about
+  eo: pri
+  ga: fúm
+  nn: om

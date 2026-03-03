@@ -5,7 +5,7 @@
     <meta name="description" content="Personal website of Nova Patch, with writing, research, talks, and projects.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta property="og:description" content="Personal website of Nova Patch, with writing, research, talks, and projects.">
-    <meta property="og:locale" content="{{ site.locale }}">
+    <meta property="og:locale" content="{{ site.locales[page.language] }}">
     <meta property="og:site_name" content="Nova Patch">
     <meta property="og:title" content="Nova Patch">
     <meta property="og:type" content="website">
@@ -13,7 +13,7 @@
     <title>Nova Patch</title>
     <link rel="alternate" href="{{ site.url }}/{{ page.language }}/" hreflang="{{ page.language }}">
     <link rel="alternate" href="{{ site.url }}/" hreflang="x-default">
-    <link rel="author" href="{{ site.url }}/{{ page.language }}/about">
+    <link rel="author" href="{{site.url}}/{{ page.language }}/{{ site.about[page.language] }}">
     <link rel="canonical" href="{{ site.url }}/{{ page.language }}/">
     <link rel="stylesheet" href="/css/site.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=EB+Garamond&display=swap">

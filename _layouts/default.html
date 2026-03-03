@@ -4,7 +4,11 @@
   <body>
     <header class="site-header">
       <div class="wrapper">
-        <a class="site-title" href="{{ site.baseurl }}/{{ page.language }}/">{{ site.title }}</a>
+        {% if page.language == "en" -%}
+          <a class="site-title" href="{{ site.baseurl }}/{{ page.language }}/">{{ site.title }}</a>
+        {% else -%}
+          <span class="site-title">{{ site.title }}</span>
+        {% endif -%}
       </div>
     </header>
     <div class="page-content">
