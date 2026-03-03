@@ -1,5 +1,6 @@
 ---
 title: 'Characters for Humans'
+language: en
 layout: post
 permalink: /en/characters-for-humans
 category: coding

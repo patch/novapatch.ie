@@ -1,5 +1,6 @@
 ---
 title: When a space is not just a space
+language: en
 permalink: /en/when-a-space-is-not-just-a-space
 layout: post
 category: coding

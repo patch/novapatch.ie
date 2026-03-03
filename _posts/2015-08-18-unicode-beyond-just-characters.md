@@ -1,5 +1,6 @@
 ---
 title: 'Unicode beyond just characters: Localization with the CLDR'
+language: en
 layout: post
 permalink: /en/unicode-beyond-just-characters
 category: coding

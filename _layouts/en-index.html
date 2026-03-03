@@ -1,20 +1,20 @@
 <!doctype html>
-<html lang="en">
+<html lang="{{ page.language }}">
   <head>
     <meta charset="utf-8">
     <meta name="description" content="Personal website of Nova Patch, with writing, research, talks, and projects.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta property="og:description" content="Personal website of Nova Patch, with writing, research, talks, and projects.">
-    <meta property="og:locale" content="en_IE">
+    <meta property="og:locale" content="{{ site.locale }}">
     <meta property="og:site_name" content="Nova Patch">
     <meta property="og:title" content="Nova Patch">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://novapatch.ie/en/">
+    <meta property="og:url" content="{{ site.url }}/{{ page.language }}/">
     <title>Nova Patch</title>
-    <link rel="alternate" href="https://novapatch.ie/en/" hreflang="en">
-    <link rel="alternate" href="https://novapatch.ie/" hreflang="x-default">
-    <link rel="author" href="https://novapatch.ie/en/about">
-    <link rel="canonical" href="https://novapatch.ie/en/">
+    <link rel="alternate" href="{{ site.url }}/{{ page.language }}/" hreflang="{{ page.language }}">
+    <link rel="alternate" href="{{ site.url }}/" hreflang="x-default">
+    <link rel="author" href="{{ site.url }}/{{ page.language }}/about">
+    <link rel="canonical" href="{{ site.url }}/{{ page.language }}/">
     <link rel="stylesheet" href="/css/site.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=EB+Garamond&display=swap">
   </head>
@@ -23,7 +23,7 @@
     <img src="/img/lichens.gif" alt="Lichen illustration on a stone" class="hero">
     <nav class="links" aria-label="Links">
       <ul>
-        <li><a href="/en/about" rel="author">About</a>
+        <li><a href="/{{ page.language }}/about" rel="author">About</a>
         <li><a href="https://bsky.app/profile/novapatch.ie" rel="me">Bluesky</a></li>
         <li><a href="https://github.com/patch" rel="me">GitHub</a></li>
         <li><a href="https://www.inaturalist.org/people/novapatch" rel="me">iNaturalist</a></li>

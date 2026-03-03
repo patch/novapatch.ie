@@ -1,5 +1,6 @@
 ---
 title: 'Upcoming talks'
+language: en
 layout: page
 permalink: /talks/upcoming/
 ---

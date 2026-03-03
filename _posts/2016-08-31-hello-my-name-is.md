@@ -1,5 +1,6 @@
 ---
 title: 'Hello, my name is __________.'
+language: en
 layout: post
 permalink: /en/hello-my-name-is
 category: coding

@@ -3,14 +3,14 @@
     {% unless page.title %}<meta name="description" content="{{ site.description }}">{% endunless %}
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {% unless page.title %}<meta property="og:description" content="{{ site.description }}">{% endunless %}
-    <meta property="og:locale" content="en_IE">
+    <meta property="og:locale" content="{{ site.locale }}">
     <meta property="og:site_name" content="{{ site.title }}">
     <meta property="og:title" content="{{ page.title }}">
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
     <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
-    <link rel="alternate" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}" hreflang="en">
-    <link rel="author" href="https://novapatch.ie/en/about">
+    <link rel="alternate" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}" hreflang="{{ page.language }}">
+    <link rel="author" href="{{site.url}}/{{ page.language }}/about">
     <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=EB+Garamond&display=swap">

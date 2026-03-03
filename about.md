@@ -1,5 +1,6 @@
 ---
 title: 'About'
+language: en
 layout: page
 permalink: /en/about
 ---
