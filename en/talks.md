@@ -32,7 +32,7 @@ A deep dive into global punctuation systems and how products can dynamically loc
 
 ---
 
-### Locale Negotiation, Selection, and Persistence
+### [Locale Negotiation, Selection, and Persistence](/en/locale-negotiation-selection-persistence)
 
 Practical strategies for selecting the right locale for users and maintaining consistent language and regional preferences across platforms and user journeys.
 
