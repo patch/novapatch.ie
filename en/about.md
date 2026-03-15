@@ -21,10 +21,10 @@ This site is a digital garden for ongoing work.
 
 ## Links
 
-[Bluesky](https://bsky.app/profile/novapatch.ie) ·
-[GitHub](https://github.com/patch) ·
-[iNaturalist](https://www.inaturalist.org/people/novapatch) ·
-[LinkedIn](https://www.linkedin.com/in/novapatch) ·
-[Mastodon](https://mastodon.ie/@patch) ·
-[SoundCloud](https://soundcloud.com/novapatch) ·
-[YouTube](https://www.youtube.com/@novapatch)
+- <a href="https://bsky.app/profile/novapatch.ie" rel="me">Bluesky</a>
+- <a href="https://github.com/patch" rel="me">GitHub</a>
+- <a href="https://www.inaturalist.org/people/novapatch" rel="me">iNaturalist</a>
+- <a href="https://www.linkedin.com/in/novapatch/" rel="me">LinkedIn</a>
+- <a href="https://mastodon.ie/@patch" rel="me">Mastodon</a>
+- <a href="https://soundcloud.com/novapatch" rel="me">SoundCloud</a>
+- <a href="https://www.youtube.com/@novapatch" rel="me">YouTube</a>
