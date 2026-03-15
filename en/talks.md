@@ -75,7 +75,7 @@ Introduces the Unicode CLDR and its role as a foundational dataset for localizat
 
 ### Unicode Regular Expressions
 
-Explores Unicode-aware regular expression behaviour, including character properties, grapheme handling, boundaries, and differences across regex engines and implementations.
+Explores Unicode-aware regular expression behaviour, including character properties, grapheme cluster handling, boundaries, and differences across regex engines and implementations.
 
 - **Internationalization & Unicode Conference 38** (IUC38), Santa Clara, CA, 4 November 2014
 - **DC–Baltimore Perl Workshop 2013**, Baltimore, MD, 20 April 2013
