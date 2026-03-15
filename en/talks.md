@@ -15,7 +15,7 @@ Explores how localization teams can support LGBTQ+ users through inclusive langu
 
 ---
 
-### Localizing Contributed Multimedia & Metadata for Global Distribution
+### [Localizing Contributed Multimedia & Metadata for Global Distribution](/en/localizing-contributed-multimedia-metadata)
 
 Examines how global platforms localize contributor-generated multimedia and metadata at scale to improve discoverability, cultural relevance, and audience engagement across international markets.
 
