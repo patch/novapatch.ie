@@ -13,8 +13,8 @@ This session explores how localization teams can support LGBTQ+ users through la
 
 ## Key Takeaways
 
-- Practical methods for localizing LGBTQ+ terminology, pronouns, and identity-related language across diverse languages and markets.  
-- UX and internationalization patterns that support inclusive name, gender, and identity fields in global products.  
+- Practical methods for localizing LGBTQ+ terminology, pronouns, and identity-related language across diverse languages and markets.
+- UX and internationalization patterns that support inclusive name, gender, and identity fields in global products.
 - Techniques for detecting and mitigating AI-driven linguistic bias in sensitive or identity-related content.
 
 <img src="/img/LW55-Speaker-Horizontal.jpg" alt="LocWorld55 Dublin, 9–11 June 2026, Speaker" class="hero">
