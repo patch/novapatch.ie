@@ -23,7 +23,7 @@ Examines how global platforms localize contributor-generated multimedia and meta
 
 ---
 
-### Punctuation Localization
+### [Punctuation Localization](/en/punctuation-localization)
 
 A deep dive into global punctuation systems and how products can dynamically localize punctuation to deliver natural, locale-appropriate user experiences.
 
