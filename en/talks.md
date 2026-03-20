@@ -1,5 +1,6 @@
 ---
 title: Talks
+description: Talks by Nova Patch on internationalization, localization, inclusive systems, and language technology.
 layout: page
 permalink: /en/talks
 language: en

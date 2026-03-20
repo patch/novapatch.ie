@@ -1,5 +1,6 @@
 ---
 title: Fúm
+description: "Fúm: Nova Patch — obair ag crosbhealach na teanga, na teicneolaíochta agus an chultúir, lena n-áirítear idirnáisiúnú, caighdeáin oscailte agus stair nádúrtha."
 layout: page
 permalink: /ga/fúm
 language: ga

@@ -1,5 +1,6 @@
 ---
 title: Om
+description: "Om Nova Patch: arbeid i skjeringspunktet mellom språk, teknologi og kultur, med internasjonalisering, opne standardar og naturhistorie."
 layout: page
 permalink: /nn/om
 language: nn

@@ -1,5 +1,6 @@
 ---
 title: Pri
+description: "Pri Nova Patch: laboro ĉe la intersekco de lingvo, teknologio kaj kulturo, inkluzive de internaciigo, malfermaj normoj kaj naturhistorio."
 layout: page
 permalink: /eo/pri
 language: eo

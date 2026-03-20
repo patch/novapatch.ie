@@ -1,5 +1,6 @@
 ---
 title: About
+description: "About Nova Patch: work at the intersection of language, technology, and culture, including internationalization, open standards, and natural history."
 layout: page
 permalink: /en/about
 language: en
