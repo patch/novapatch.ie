@@ -1,11 +1,12 @@
 ---
 title: Queer Localization
+description: Queer localization adapts language, technology, and content to support LGBTQ+ users worldwide.
 layout: page
 permalink: /en/queer-localization
 language: en
 ---
 
-I’ll be presenting a new session *Queer Localization* at [LocWorld55 Dublin](https://locworld.com/events/locworld55-dublin-2026/) on 9–11 June 2026 in the Localization Management track.
+I’ll be presenting a new session [*Queer Localization*](https://locworld.com/sessions/queer-localization/) at [LocWorld55 Dublin](https://locworld.com/events/locworld55-dublin-2026/) on 10 June 2026 in the Localization Management track. I’ll also share queer localization resources here over time.
 
 ## Synopsis
 
@@ -17,4 +18,6 @@ This session explores how localization teams can support LGBTQ+ users through la
 - UX and internationalization patterns that support inclusive name, gender, and identity fields in global products.
 - Techniques for detecting and mitigating AI-driven linguistic bias in sensitive or identity-related content.
 
-<img src="/img/LW55-Speaker-Horizontal.jpg" alt="LocWorld55 Dublin, 9–11 June 2026, Speaker" class="hero">
+<a href="https://locworld.com/events/locworld55-dublin-2026/" style="display: flex; justify-content: center; margin-top: 1.5em">
+  <img src="/img/LW55-Speaker-Horizontal.jpg" alt="LocWorld55 Dublin, 9–11 June 2026, Speaker" class="hero" style="width: 80%">
+</a>
