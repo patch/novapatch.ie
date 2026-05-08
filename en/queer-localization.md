@@ -1,12 +1,12 @@
 ---
 title: Queer Localization
-description: Queer localization adapts language, technology, and content to support LGBTQ+ users worldwide.
+description: Queer localization transforms language, technology, and content to support LGBTQ+ users worldwide.
 layout: page
 permalink: /en/queer-localization
 language: en
 ---
 
-I’ll be presenting a new session [*Queer Localization*](https://locworld.com/sessions/queer-localization/) at [LocWorld55 Dublin](https://locworld.com/events/locworld55-dublin-2026/) on 10 June 2026 in the Localization Management track. I’ll also share queer localization resources here over time.
+I’ll be presenting a new session [*Queer Localization*](https://locworld.com/sessions/queer-localization/) at [LocWorld55 Dublin](https://locworld.com/events/locworld55-dublin-2026/) on 10 June 2026 as part of the Localization Management track. I’ll also use this page to share related resources over time.
 
 ## Synopsis
 
