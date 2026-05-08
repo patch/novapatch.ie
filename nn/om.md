@@ -14,18 +14,20 @@ alternates:
 
 Eg arbeider i skjeringspunktet mellom språk, teknologi og kultur.
 
-Bakgrunnen min er innan programvareutvikling og produktutvikling. Eg er interessert i korleis globale system blir bygde: korleis internasjonalisering, teiknkoding, typografi, søk og metadata formar kvardagslege erfaringar på tvers av språk. Dette arbeidet har omfatta meir enn 30 språk gjennom produktlokalisering, utvikling av open kjeldekode og bidrag til opne standardar, mellom anna gjennom langvarig deltaking i Unicode-konsortiet. Robust digital infrastruktur og inkluderande utforming er framleis sentrale omsyn.
+Bakgrunnen min er innan programvareutvikling og produktutvikling. Eg er interessert i korleis globale system blir bygde: internasjonalisering, teiknkoding, typografi, søk og metadata formar kvardagslege erfaringar på tvers av språk.
 
-Eg er òg oppteken av system for observasjon og taksonomi i naturhistorie, særleg i studiet av lav og urbane økosystem. Dei same spørsmåla kjem att der: korleis vi namngjev ting, korleis vi klassifiserer dei, og kva som følgjer av desse vala.
+Dette arbeidet har omfatta meir enn 30 språk gjennom produktlokalisering, utvikling av open kjeldekode og bidrag til opne standardar, mellom anna gjennom langvarig deltaking i Unicode-konsortiet. Tilgjengeleg digital infrastruktur og inkluderande utforming er framleis sentrale omsyn.
 
-Denne nettstaden er ein digital hage for pågåande arbeid.
+Eg er òg oppteken av system for observasjon og taksonomi i naturhistorie, særleg studiet av lav, økologisk kartlegging, kamerafangst og akustisk logging. Dei same spørsmåla kjem att der: korleis vi namngjev ting, korleis vi klassifiserer dei, korleis teknologi utvidar observasjon, og korleis opne data hjelper fellesskap med å forstå økosystem.
+
+Denne nettstaden er ein *digital hage* for pågåande arbeid.
 
 ## Lenker
 
-[Bluesky](https://bsky.app/profile/novapatch.ie) ·
-[GitHub](https://github.com/patch) ·
-[iNaturalist](https://www.inaturalist.org/people/novapatch) ·
-[LinkedIn](https://www.linkedin.com/in/novapatch) ·
-[Mastodon](https://mastodon.ie/@patch) ·
-[SoundCloud](https://soundcloud.com/novapatch) ·
-[YouTube](https://www.youtube.com/@novapatch)
+- <a href="https://bsky.app/profile/novapatch.ie" rel="me">Bluesky</a>
+- <a href="https://github.com/patch" rel="me">GitHub</a>
+- <a href="https://www.inaturalist.org/people/novapatch" rel="me">iNaturalist</a>
+- <a href="https://www.linkedin.com/in/novapatch/" rel="me">LinkedIn</a>
+- <a href="https://mastodon.ie/@patch" rel="me">Mastodon</a>
+- <a href="https://soundcloud.com/novapatch" rel="me">SoundCloud</a>
+- <a href="https://www.youtube.com/@novapatch" rel="me">YouTube</a>
