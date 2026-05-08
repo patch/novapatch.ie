@@ -1,6 +1,6 @@
 ---
 title: Queer Localization
-description: Queer localization transforms language, technology, and content to support LGBTQ+ users worldwide.
+description: Queer localization transforms language, technology, and content for LGBTQ+ users worldwide.
 layout: page
 permalink: /en/queer-localization
 language: en
