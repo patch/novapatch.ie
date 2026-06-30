@@ -8,19 +8,39 @@ language: en
 
 Recent talks focus on inclusive localization, localization strategy, and designing systems that support diverse identities and cultures worldwide. Earlier talks explore foundational Unicode and multilingual text processing.
 
+<div class="talk-entry" markdown="1">
+
+<div class="talk-copy" markdown="1">
+
 ### [Queer Localization](/en/queer-localization)
 
 Explores how localization teams can support LGBTQ+ users through inclusive language, identity-aware product design, and practical approaches to mitigating bias in global software systems.
 
 - **LocWorld55**, Dublin, Ireland, 10 June 2026
 
+</div>
+
+<a href="/en/queer-localization" class="talk-photo-link"><img src="/img/talks-queer-localization.jpg" alt="Nova Patch presenting Queer Localization at LocWorld55 Dublin" class="talk-photo" loading="lazy" decoding="async"></a>
+
+</div>
+
 ---
+
+<div class="talk-entry" markdown="1">
+
+<div class="talk-copy" markdown="1">
 
 ### [Localizing Contributed Multimedia & Metadata for Global Distribution](/en/localizing-contributed-multimedia-metadata)
 
 Examines how global platforms localize contributor-generated multimedia and metadata at scale to improve discoverability, cultural relevance, and audience engagement across international markets.
 
 - **LocWorld53**, Malmö, Sweden, 4 June 2025
+
+</div>
+
+<a href="/en/localizing-contributed-multimedia-metadata" class="talk-photo-link"><img src="/img/talks-localizing-contributed-multimedia-metadata.jpg" alt="Nova Patch presenting Localizing Contributed Multimedia & Metadata for Global Distribution at LocWorld53 Malmö" class="talk-photo" loading="lazy" decoding="async"></a>
+
+</div>
 
 ---
 

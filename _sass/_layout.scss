@@ -189,6 +189,49 @@
     font-size: 24px;
 }
 
+.talk-entry {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 220px;
+    column-gap: $spacing-unit / 2;
+    align-items: start;
+    margin-bottom: $spacing-unit / 2;
+    padding-top: $spacing-unit / 2;
+}
+
+.talk-entry:first-of-type {
+    padding-top: 0;
+}
+
+.talk-copy {
+    min-width: 0;
+}
+
+.talk-photo-link {
+    display: block;
+    margin: 0;
+}
+
+.talk-photo {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    width: 100%;
+}
+
+@include media-query($on-palm) {
+    .talk-entry {
+        display: block;
+    }
+
+    .talk-photo-link {
+        margin: 0 0 $spacing-unit / 2 0;
+    }
+
+    .talk-photo {
+        width: 220px;
+    }
+}
+
 
 
 /**
