@@ -39,8 +39,22 @@ significant update to the page.
 
 ## Prose Style
 
-In natural-language prose, use the Unicode quotation mark characters
-appropriate for English (en) text:
+Apply these rules to the site owner’s English prose. Do not alter quoted text,
+external titles, names, code, data formats, machine-readable metadata, or any
+other text where exact wording or syntax matters.
+
+Use Irish English (`en-IE`) spelling by default, with Oxford spelling
+(`en-GB-oed`) overrides where Oxford spelling differs from standard British
+English. In practice, prefer `-ize`, `-ization`, and `-yze` forms when Oxford
+spelling calls for them, while otherwise following Irish/British usage.
+Reference: https://en.wikipedia.org/wiki/Oxford_spelling
+
+Write dates in natural-language prose in the usual Irish format, e.g.
+`10 June 2026`. Use ISO 8601 dates such as `2026-06-10` where technically
+appropriate, including structured data, filenames, front matter, sitemaps,
+machine-readable metadata, and code.
+
+In natural-language prose, use these Unicode quotation mark characters:
 
 - `‘` U+2018 LEFT SINGLE QUOTATION MARK for opening single quotation marks.
 - `’` U+2019 RIGHT SINGLE QUOTATION MARK for apostrophes and closing single
@@ -50,3 +64,13 @@ appropriate for English (en) text:
 
 Preserve ASCII apostrophe U+0027 and quotation mark U+0022 where they are
 required by code, data formats, or markup syntax.
+
+Prefer sparse punctuation in prose. Commas, semicolons, colons, and em dashes
+are all allowed, but omit them when the sentence remains clear without them.
+Use commas lightly, avoid semicolons unless they genuinely improve clarity, and
+prefer plain sentence rhythm over heavily marked structure.
+
+Use en dashes and em dashes according to *The Chicago Manual of Style*. Use an
+en dash for numeric ranges, date ranges, and relationships such as
+`Dublin–London`. Use an em dash only for a true break in thought or
+parenthetical interruption. Do not use em dashes as a default sentence joiner.
