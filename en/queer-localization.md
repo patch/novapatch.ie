@@ -10,7 +10,7 @@ I’ll be presenting a new session [*Queer Localization*](https://locworld.com/s
 
 ## Synopsis
 
-This session explores how localization teams can support LGBTQ+ users through language practices, product decisions, and cross-functional collaboration. It focuses on real challenges such as handling gendered grammar, pronoun localization, inclusive terminology, personal identity fields, and culturally varied expectations across markets. The session also addresses practical ways to identify and mitigate bias in AI-generated content in sensitive linguistic areas. Attendees will learn actionable approaches that help teams make informed localization program and product decisions while honoring identity expression and ensuring respectful experiences for users expressing diverse identities across global platforms.
+This session explores how localization teams can support LGBTQ+ users through language practices, product decisions, and cross-functional collaboration. It focuses on real challenges such as handling gendered grammar, pronoun localization, inclusive terminology, personal identity fields, and culturally varied expectations across markets. The session also addresses practical ways to identify and mitigate bias in AI-generated content in sensitive linguistic areas. Attendees will learn actionable approaches that help teams make informed localization programme and product decisions while honouring identity expression and ensuring respectful experiences for users expressing diverse identities across global platforms.
 
 ## Key Takeaways
 

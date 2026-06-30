@@ -14,7 +14,7 @@ tags:
 
 *Originally published on 23 December 2014 in the [Perl Advent Calendar 2014](https://perladvent.org/2014/2014-12-23.html).*
 
-2014 has been an exciting year for CLDR development on the CPAN. But first, what is the CLDR? The [Unicode Common Locale Data Repository](http://cldr.unicode.org/) is a standardized repository of locale data along with a specification for its use and implementation. The simplest use case is easy access to translations for use in user interfaces, including month and day names, country and language names, and units of measure such as hours, bytes, meters, and even furlongs. More complex uses include localized ranges of dates using the local calendaring and numbering systems.
+2014 has been an exciting year for CLDR development on the CPAN. But first, what is the CLDR? The [Unicode Common Locale Data Repository](http://cldr.unicode.org/) is a standardized repository of locale data along with a specification for its use and implementation. The simplest use case is easy access to translations for use in user interfaces, including month and day names, country and language names, and units of measure such as hours, bytes, metres, and even furlongs. More complex uses include localized ranges of dates using the local calendaring and numbering systems.
 
 The [CLDR specification](http://www.unicode.org/reports/tr35/), however, is increasingly complex and the amount of data is increasingly large. This makes sense because natural languages are complex and each release supports additional minority locales. Fortunately, the CPAN has had more CLDR-based development this year than ever before. This means you don’t have to worry about reading complex specifications or manually parsing large XML data structures.
 
