@@ -7,6 +7,8 @@ language: en
 
 Punctuation is commonly just a bullet point in internationalization materials, if mentioned at all. This session explores the depths of global punctuation and how to support dynamically localized punctuation throughout your products to provide a first-class user experience in all locales.
 
+<img src="/img/punctuation-localization-iuc44.png" alt="Punctuation Localization talk title image for IUC44" class="hero" style="width: 100%" loading="lazy" decoding="async">
+
 ## Topics
 
 - A world tour of punctuation!

@@ -44,12 +44,22 @@ Examines how global platforms localize contributor-generated multimedia and meta
 
 ---
 
+<div class="talk-entry" markdown="1">
+
+<div class="talk-copy" markdown="1">
+
 ### [Punctuation Localization](/en/punctuation-localization)
 
 A deep dive into global punctuation systems and how products can dynamically localize punctuation to deliver natural, locale-appropriate user experiences.
 
 - **Internationalization & Unicode Conference 44** (IUC44), Virtual, 16 October 2020
 - **Internationalization & Unicode Conference 42** (IUC42), Santa Clara, CA, 12 September 2018
+
+</div>
+
+<a href="/en/punctuation-localization" class="talk-photo-link"><img src="/img/talks-punctuation-localization.png" alt="Punctuation Localization title image for IUC44" class="talk-photo" loading="lazy" decoding="async"></a>
+
+</div>
 
 ---
 
@@ -61,6 +71,10 @@ Practical strategies for selecting the right locale for users and maintaining co
 
 ---
 
+<div class="talk-entry" markdown="1">
+
+<div class="talk-copy" markdown="1">
+
 ### [Characters for Humans](/en/characters-for-humans)
 
 Explains how Unicode grapheme clusters and emoji sequences affect real user experiences and how systems should handle user-perceived characters across input, storage, and display.
@@ -68,7 +82,17 @@ Explains how Unicode grapheme clusters and emoji sequences affect real user expe
 - **Internationalization & Unicode Conference 41** (IUC41), Santa Clara, CA, 18 October 2017
 - **The Perl Conference 2017**, Washington, DC, 21 June 2017
 
+</div>
+
+<a href="/en/characters-for-humans" class="talk-photo-link"><img src="/img/talks-characters-for-humans.png" alt="Characters for Humans title slide for IUC41" class="talk-photo" loading="lazy" decoding="async"></a>
+
+</div>
+
 ---
+
+<div class="talk-entry" markdown="1">
+
+<div class="talk-copy" markdown="1">
 
 ### [Hello, my name is \_\_\_\_\_\_\_\_\_\_.](/en/hello-my-name-is)
 
@@ -80,7 +104,17 @@ Explores how software systems can properly support the global diversity of perso
 - **Open Source Bridge 2015**, Portland, OR, 23 June 2015
 - **YAPC::NA 2015**, Salt Lake City, UT, 10 June 2015
 
+</div>
+
+<a href="/en/hello-my-name-is" class="talk-photo-link"><img src="/img/talks-hello-my-name-is.png" alt="Hello, my name is title slide" class="talk-photo" loading="lazy" decoding="async"></a>
+
+</div>
+
 ---
+
+<div class="talk-entry" markdown="1">
+
+<div class="talk-copy" markdown="1">
 
 ### [Unicode Beyond Just Characters: Localization with the CLDR](/en/unicode-beyond-just-characters)
 
@@ -91,6 +125,12 @@ Introduces the Unicode CLDR and its role as a foundational dataset for localizat
 - **Open Source Bridge 2014**, Portland, OR, 26 June 2014
 - **YAPC::NA 2014**, Orlando, FL, 23 June 2014
 - **DC–Baltimore Perl Workshop 2014**, Silver Spring, MD, 3 May 2014
+
+</div>
+
+<a href="/en/unicode-beyond-just-characters" class="talk-photo-link"><img src="/img/talks-unicode-beyond-just-characters.jpg" alt="Unicode Beyond Just Characters title slide" class="talk-photo" loading="lazy" decoding="async"></a>
+
+</div>
 
 ---
 

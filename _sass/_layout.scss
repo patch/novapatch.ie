@@ -207,14 +207,19 @@
 }
 
 .talk-photo-link {
-    display: block;
+    align-items: center;
+    aspect-ratio: 3 / 2;
+    display: flex;
+    justify-content: center;
     margin: 0;
 }
 
 .talk-photo {
     display: block;
-    height: auto;
+    height: 100%;
     max-width: 100%;
+    object-fit: contain;
+    object-position: center;
     width: 100%;
 }
 
@@ -225,9 +230,6 @@
 
     .talk-photo-link {
         margin: 0 0 $spacing-unit / 2 0;
-    }
-
-    .talk-photo {
         width: 220px;
     }
 }
