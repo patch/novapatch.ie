@@ -6,7 +6,9 @@ permalink: /en/queer-localization
 language: en
 ---
 
-I’ll be presenting a new session [*Queer Localization*](https://locworld.com/sessions/queer-localization/) at [LocWorld55 Dublin](https://locworld.com/events/locworld55-dublin-2026/) on 10 June 2026 as part of the Localization Management track. I’ll also use this page to share related resources over time.
+I presented [*Queer Localization*](https://locworld.com/sessions/queer-localization/) at [LocWorld55 Dublin](https://locworld.com/events/locworld55-dublin-2026/) on 10 June 2026 as part of the Localization Management track. I’ll also use this page to share related resources over time.
+
+<img src="/img/queer-localization-locworld55.jpg" alt="Nova Patch presenting Queer Localization at LocWorld55 Dublin" class="hero" style="width: 100%" loading="lazy" decoding="async">
 
 ## Synopsis
 
@@ -17,7 +19,3 @@ This session explores how localization teams can support LGBTQ+ users through la
 - Practical methods for localizing LGBTQ+ terminology, pronouns, and identity-related language across diverse languages and markets.
 - UX and internationalization patterns that support inclusive name, gender, and identity fields in global products.
 - Techniques for detecting and mitigating AI-driven linguistic bias in sensitive or identity-related content.
-
-<a href="https://locworld.com/events/locworld55-dublin-2026/" style="display: flex; justify-content: center; margin-top: 1.5em">
-  <img src="/img/LW55-Speaker-Horizontal.jpg" alt="LocWorld55 Dublin, 9–11 June 2026, Speaker" class="hero" style="width: 80%">
-</a>
