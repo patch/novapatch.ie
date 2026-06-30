@@ -94,7 +94,7 @@ we can build inclusive software that supports diverse identities.
  * [Unicode Security Considerations](http://unicode.org/reports/tr36/)
  * [Unicode Security Mechanisms](http://unicode.org/reports/tr39/)
 
-<blockquote class="twitter-tweet" data-cards="hidden" lang="en"><p lang="en" dir="ltr">&quot;Preventing fake names is not worth discriminating against real users.&quot; —{% include twitter.html %} Excellent resources at <a href="https://t.co/59Wl7qcMxl">https://t.co/59Wl7qcMxl</a>. <a href="https://twitter.com/hashtag/osb15?src=hash">#osb15</a></p>&mdash; fureigh (@fureigh) <a href="https://twitter.com/fureigh/status/613467939476365312">June 23, 2015</a></blockquote>
+<blockquote class="twitter-tweet" data-cards="hidden" lang="en"><p lang="en" dir="ltr">“Preventing fake names is not worth discriminating against real users.” —{% include twitter.html %} Excellent resources at <a href="https://t.co/59Wl7qcMxl">https://t.co/59Wl7qcMxl</a>. <a href="https://twitter.com/hashtag/osb15?src=hash">#osb15</a></p>&mdash; fureigh (@fureigh) <a href="https://twitter.com/fureigh/status/613467939476365312">June 23, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Thanks to everyone who participated in the session and discussion!
