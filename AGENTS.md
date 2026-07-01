@@ -1,5 +1,18 @@
 # Repository Instructions
 
+This is Nova Patch’s personal Jekyll site at `https://novapatch.ie`, with
+writing, talks, research, and a few static project pages.
+
+## Build and Generated Files
+
+Use the Ruby version in `.ruby-version`. Build with:
+
+```sh
+bundle exec jekyll build
+```
+
+Treat `_site/` as generated output. Edit source files instead.
+
 ## Sitemap Maintenance
 
 When editing indexable pages, keep `sitemap.xml` in sync.
