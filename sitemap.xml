@@ -6,7 +6,7 @@
   </url>
   <url>
     <loc>https://novapatch.ie/en/about</loc>
-    <lastmod>2026-05-08</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <xhtml:link rel="alternate" href="https://novapatch.ie/en/about" hreflang="en" />
     <xhtml:link rel="alternate" href="https://novapatch.ie/eo/pri" hreflang="eo" />
     <xhtml:link rel="alternate" href="https://novapatch.ie/ga/fúm" hreflang="ga" />
@@ -43,6 +43,10 @@
   <url>
     <loc>https://novapatch.ie/en/cldr-tldr</loc>
     <lastmod>2026-03-03</lastmod>
+  </url>
+  <url>
+    <loc>https://novapatch.ie/en/cv</loc>
+    <lastmod>2026-07-01</lastmod>
   </url>
   <url>
     <loc>https://novapatch.ie/en/hello-my-name-is</loc>

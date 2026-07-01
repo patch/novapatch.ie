@@ -22,6 +22,8 @@ I’m also drawn to systems of observation and taxonomy in natural history, part
 
 This site is a *digital garden* for ongoing work.
 
+For professional background, see my [CV](/en/cv).
+
 ## Links
 
 - <a href="https://bsky.app/profile/novapatch.ie" rel="me">Bluesky</a>
