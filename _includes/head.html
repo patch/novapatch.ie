@@ -9,7 +9,7 @@
     <meta property="og:title" content="{{ page.title }}">
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
-    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <title>{% if page.title %}{{ page.title }} {{ site.head_title_separator | default: "|" }} {% endif %}{{ site.title }}</title>
     <link rel="alternate" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}" hreflang="{{ page.language }}">
     {% for alternate in page.alternates -%}
     <link rel="alternate" href="{{ site.url }}/{{ alternate[0] }}/{{ alternate[1] }}" hreflang="{{ alternate[0] }}">

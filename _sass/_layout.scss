@@ -244,12 +244,24 @@
 }
 
 .post-title {
-    font-size: 42px;
+    font-size: 36px;
     letter-spacing: -1px;
     line-height: 1;
 
     @include media-query($on-laptop) {
-        font-size: 36px;
+        font-size: 32px;
+    }
+}
+
+.post-title-separator,
+.post-site-title {
+    color: $grey-color-dark;
+}
+
+.post-site-title {
+    &,
+    &:visited {
+        color: $grey-color-dark;
     }
 }
 
