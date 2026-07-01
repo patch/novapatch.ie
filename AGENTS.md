@@ -50,6 +50,22 @@ Reference: Google Search Central says Google uses `<lastmod>` when it is
 consistently and verifiably accurate, and that it should reflect the last
 significant update to the page.
 
+## Authorship and AI Assistance
+
+This repository represents human-authored personal and public knowledge
+management. The site owner’s primary focus is human knowledge management, not
+AI-generated publication.
+
+Generative AI may be used for Webmaster assistance, including editing support,
+formatting, site maintenance, administrative text generation, metadata updates,
+and other implementation or maintenance tasks. Do not treat the presence of
+prose-style instructions as permission to generate primary site content on the
+owner’s behalf.
+
+When assisting with prose, preserve the owner’s meaning, voice, authorship, and
+intent. Suggest or apply edits only as editorial or maintenance assistance
+unless explicitly asked to draft new content.
+
 ## Prose Style
 
 Apply these rules to the site owner’s English prose. Do not alter quoted text,
