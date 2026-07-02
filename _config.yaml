@@ -1,6 +1,7 @@
 title:       Nova Patch
+display_title: "Nova Patch"
 head_title_separator: "|"
-body_title_separator: ⸺
+body_title_separator: " ⸗ "
 email:       nova.patch@gmail.com
 description: Personal website of Nova Patch, with writing, research, talks, and projects.
 baseurl:     ""
