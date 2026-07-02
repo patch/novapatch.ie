@@ -24,12 +24,4 @@ This site is a *digital garden* for ongoing work.
 
 For professional background, see my [CV](/en/cv).
 
-## Links
-
-- <a href="https://bsky.app/profile/novapatch.ie" rel="me">Bluesky</a>
-- <a href="https://github.com/patch" rel="me">GitHub</a>
-- <a href="https://www.inaturalist.org/people/novapatch" rel="me">iNaturalist</a>
-- <a href="https://www.linkedin.com/in/novapatch/" rel="me">LinkedIn</a>
-- <a href="https://mastodon.ie/@patch" rel="me">Mastodon</a>
-- <a href="https://soundcloud.com/novapatch" rel="me">SoundCloud</a>
-- <a href="https://www.youtube.com/@novapatch" rel="me">YouTube</a>
+{% include profile-links.html label="Links" %}

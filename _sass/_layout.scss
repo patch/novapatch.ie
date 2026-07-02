@@ -135,8 +135,13 @@
 }
 
 .site-footer-links li:not(:last-child)::after {
-    color: $grey-color;
+    color: lighten($text-color, 35%);
     content: "·";
+}
+
+.site-footer-links a,
+.site-footer-links a:visited {
+    color: $text-color;
 }
 
 .footer-heading {
@@ -237,6 +242,34 @@
 .post-link {
     display: block;
     font-size: 24px;
+}
+
+.profile-links {
+    align-items: baseline;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    margin-bottom: $spacing-unit / 2;
+}
+
+.profile-links ul {
+    align-items: baseline;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.profile-links li {
+    align-items: baseline;
+    display: flex;
+    gap: 0.35rem;
+}
+
+.profile-links li:not(:last-child)::after {
+    content: "·";
 }
 
 .talk-entry {

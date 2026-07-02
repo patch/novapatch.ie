@@ -22,12 +22,4 @@ Eg er òg oppteken av system for observasjon og taksonomi i naturhistorie, særl
 
 Denne nettstaden er ein *digital hage* for pågåande arbeid.
 
-## Lenker
-
-- <a href="https://bsky.app/profile/novapatch.ie" rel="me">Bluesky</a>
-- <a href="https://github.com/patch" rel="me">GitHub</a>
-- <a href="https://www.inaturalist.org/people/novapatch" rel="me">iNaturalist</a>
-- <a href="https://www.linkedin.com/in/novapatch/" rel="me">LinkedIn</a>
-- <a href="https://mastodon.ie/@patch" rel="me">Mastodon</a>
-- <a href="https://soundcloud.com/novapatch" rel="me">SoundCloud</a>
-- <a href="https://www.youtube.com/@novapatch" rel="me">YouTube</a>
+{% include profile-links.html label="Lenker" %}
