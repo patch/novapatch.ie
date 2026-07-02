@@ -253,7 +253,10 @@
     }
 }
 
-.post-title-separator,
+.post-title-separator {
+    color: lighten($text-color, 35%);
+}
+
 .post-site-title {
     color: $grey-color-dark;
 }
