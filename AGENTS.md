@@ -19,10 +19,11 @@ When editing indexable pages, keep `sitemap.xml` in sync.
 
 Update a page’s `<lastmod>` only when the edit is a significant update to that
 page, following Google’s sitemap guidance. Significant updates generally include
-changes to main content, structured data, or links on the page. Do not update
-`<lastmod>` for incidental edits such as formatting-only changes, comments,
-build/config changes that do not alter the rendered page, typo-only fixes that
-do not materially change meaning, or copyright/date boilerplate.
+changes to main content, page-specific structured data, or page-specific links
+within the main content. Do not update `<lastmod>` for incidental edits such as
+formatting-only changes, comments, build/config changes, shared navigation,
+shared layout or component changes, site-wide style changes, typo-only fixes
+that do not materially change meaning, or copyright/date boilerplate.
 
 Use the current local date in `YYYY-MM-DD` format when a `<lastmod>` update is
 warranted.
