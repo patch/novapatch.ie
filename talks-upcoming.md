@@ -13,8 +13,6 @@ Yonkers, NY ✥ Saturday 4 November, 10:30 a.m. – 12:30 p.m.
 
 #### Past talks
 
-Past talks were presented at OSCON, Open Source Bridge, AWS Loft, YAPC::NA,
-Internet Week New York, Internationalization & Unicode Conference, and NY Tech
-Localization Meetup.
+Past talks were presented at OSCON, Open Source Bridge, AWS Loft, YAPC::NA, Internet Week New York, Internationalization & Unicode Conference, and NY Tech Localization Meetup.
 
 {% include bio.md %}
