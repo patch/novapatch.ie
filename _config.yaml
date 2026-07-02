@@ -23,3 +23,10 @@ about:
   eo: pri
   ga: fúm
   nn: om
+site_nav:
+  en:
+    - title: About
+      url: /en/about
+      rel: author
+    - title: Talks
+      url: /en/talks

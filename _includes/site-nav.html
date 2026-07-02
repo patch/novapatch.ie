@@ -1,0 +1,10 @@
+{% assign nav_links = site.site_nav[page.language] %}
+{% if nav_links %}
+<nav class="{{ include.class | default: 'site-links' }}" aria-label="{{ include.label | default: 'Site navigation' }}">
+  <ul>
+    {% for link in nav_links %}
+    <li><a href="{{ link.url }}"{% if link.rel %} rel="{{ link.rel }}"{% endif %}>{{ link.title }}</a></li>
+    {% endfor %}
+  </ul>
+</nav>
+{% endif %}

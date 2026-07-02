@@ -1,4 +1,4 @@
-<hr style="margin-top: 1.5em">
+<hr>
 {% capture bio %}
 *{{ site.title }} is Director of Internationalization & Localization at
 [Shutterstock](http://www.shutterstock.com/), specializing in

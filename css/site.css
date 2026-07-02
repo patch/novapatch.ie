@@ -29,8 +29,13 @@ h1 {
 img.hero {
   display: block;
   height: auto;
-  margin: 0 auto 0.75rem auto;
   max-width: 100%;
+  width: 350px;
+}
+
+.hero-link {
+  display: block;
+  margin: 0 auto 0.75rem auto;
   width: 350px;
 }
 
