@@ -3,21 +3,21 @@
 }
 
 body {
-  font-family: "EB Garamond", serif;
-  font-size: 18px;
-  line-height: 1.5;
   margin: 0 auto;
   max-width: 42rem;
   padding: 1.25rem;
+  font-family: "EB Garamond", serif;
+  font-size: 18px;
+  line-height: 1.5;
   text-align: center;
 }
 
 h1 {
+  margin: 0;
   font-size: 36px;
   font-weight: 300;
-  letter-spacing: -1px;
   line-height: 1;
-  margin: 0;
+  letter-spacing: -1px;
 }
 
 @media screen and (max-width: 800px) {
@@ -29,8 +29,8 @@ h1 {
 img.hero {
   display: block;
   height: auto;
-  max-width: 100%;
   width: 350px;
+  max-width: 100%;
 }
 
 .hero-link {
@@ -40,18 +40,18 @@ img.hero {
 }
 
 nav.links ul {
-  align-items: baseline;
   display: flex;
-  gap: 0.35rem;
+  align-items: baseline;
   justify-content: center;
-  list-style: none;
+  gap: 0.35rem;
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
 nav.links li {
-  align-items: baseline;
   display: flex;
+  align-items: baseline;
   gap: 0.35rem;
 }
 

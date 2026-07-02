@@ -1,78 +1,78 @@
-/* Style Settings */
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 :root {
-    --bgColor: #eeeeee;
-    --accentColor: #204051;
-    --font: 'Roboto', sans-serif;
+  --accent-color: #204051;
+  --background-color: #eeeeee;
+  --font-family: 'Roboto', sans-serif;
 }
 
-body{
-    background-color: var(--bgColor);
+body {
+  background-color: var(--background-color);
 }
 
-div.top{
-    background-color: #204051;
-    margin: 0;
+div.top {
+  margin: 0;
+  background-color: #204051;
 }
 
-#userPhoto{
-    width: 96px;
-    height: 96px;
-    display: block;
-    margin: 35px auto;
-    border-radius: 25%;
-    border-style: solid;
+#userPhoto {
+  display: block;
+  width: 96px;
+  height: 96px;
+  margin: 35px auto;
+  border-style: solid;
+  border-radius: 25%;
 }
 
-#userName{
-    color: #bbb;
-    font-size: 1rem;
-    font-weight: 600;
-    line-height: 1.25;
-    display: block;
-    font-family: var(--font);
-    width: 100%;
-    text-align: center;
-    text-decoration: none;
+#userName {
+  display: block;
+  width: 100%;
+  font-family: var(--font-family);
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.25;
+  color: #bbb;
+  text-align: center;
+  text-decoration: none;
 }
 
-#links{
-    max-width: 675px;
-    width: 100%;
-    display: block;
-    margin: 27px auto;
+#links {
+  display: block;
+  width: 100%;
+  max-width: 675px;
+  margin: 27px auto;
 }
 
-h1{
-    text-align: center;
-    font-family: var(--font);
-    color: var(--accentColor);
+h1 {
+  font-family: var(--font-family);
+  color: var(--accent-color);
+  text-align: center;
 }
 
-#description{
-    text-align: center;
-    font-family: var(--font)
+#description {
+  font-family: var(--font-family);
+  text-align: center;
 }
 
-#social-media{
-    margin: auto;
+#social-media {
+  margin: auto;
 }
 
-.link{
-    display: block;
-    background-color: var(--accentColor);
-    color: var(--bgColor);
-    font-family: var(--font);
-    text-align: center;
-    margin-bottom: 20px;
-    padding: 17px;
-    text-decoration: none;
-    font-size: 1rem;
-    transition: all .25s cubic-bezier(.08,.59,.29,.99);
-    border-radius: 25px;
+.link {
+  display: block;
+  margin-bottom: 20px;
+  padding: 17px;
+  font-family: var(--font-family);
+  font-size: 1rem;
+  color: var(--background-color);
+  text-align: center;
+  text-decoration: none;
+  background-color: var(--accent-color);
+  border-radius: 25px;
+  transition: all 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99);
 }
 
-.link:hover{
-    background-color: #3b6978;
-    color: #ffffff;
+.link:hover {
+  color: #ffffff;
+  background-color: #3b6978;
 }

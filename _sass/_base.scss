@@ -18,8 +18,8 @@ dl, dd, ol, ul, figure {
 body {
     font-family: $base-font-family;
     font-size: $base-font-size;
-    line-height: $base-line-height;
     font-weight: 400;
+    line-height: $base-line-height;
     color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
@@ -114,12 +114,12 @@ a {
  * Blockquotes
  */
 blockquote {
-    color: $grey-color;
-    border-left: 4px solid $grey-color-light;
     padding-left: $spacing-unit-half;
     font-size: 18px;
-    letter-spacing: -1px;
     font-style: italic;
+    letter-spacing: -1px;
+    color: $grey-color;
+    border-left: 4px solid $grey-color-light;
 
     > :last-child {
         margin-bottom: 0;
@@ -134,9 +134,9 @@ blockquote {
 pre,
 code {
     font-size: 15px;
+    background-color: #eef;
     border: 1px solid $grey-color-light;
     border-radius: 3px;
-    background-color: #eef;
 }
 
 code {
@@ -144,13 +144,13 @@ code {
 }
 
 pre {
-    padding: 8px 12px;
     overflow-x: scroll;
+    padding: 8px 12px;
 
     > code {
-        border: 0;
         padding-right: 0;
         padding-left: 0;
+        border: 0;
     }
 }
 
@@ -160,10 +160,10 @@ pre {
  * Wrapper
  */
 .wrapper {
-    max-width: -webkit-calc(800px - (#{$spacing-unit} * 2));
-    max-width:         calc(800px - (#{$spacing-unit} * 2));
     margin-right: auto;
     margin-left: auto;
+    max-width: -webkit-calc(800px - (#{$spacing-unit} * 2));
+    max-width:         calc(800px - (#{$spacing-unit} * 2));
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
     @include clearfix;
