@@ -135,7 +135,7 @@
 }
 
 .site-footer-links li:not(:last-child)::after {
-    color: $text-color-muted;
+    color: $text-color-separator;
     content: "·";
 }
 
@@ -269,6 +269,7 @@
 }
 
 .profile-links li:not(:last-child)::after {
+    color: $text-color-separator;
     content: "·";
 }
 
@@ -337,13 +338,13 @@
 }
 
 .post-title-separator {
-    color: $text-color-muted;
+    color: $text-color-separator;
 }
 
 .post-site-title {
     &,
     &:visited {
-        color: $grey-color-dark;
+        color: $text-color;
     }
 }
 

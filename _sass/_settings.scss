@@ -10,7 +10,7 @@ $spacing-unit: 30px !default;
 $spacing-unit-half: math.div($spacing-unit, 2) !default;
 
 $text-color: #111 !default;
-$text-color-muted: color.adjust($text-color, $lightness: 35%) !default;
+$text-color-separator: color.adjust($text-color, $lightness: 40%) !default;
 $background-color: #fdfdfd !default;
 $brand-color: #3f6f5a !default;
 
