@@ -1,3 +1,7 @@
 source 'https://rubygems.org'
 ruby file: '.ruby-version'
-gem 'github-pages'
+gem 'base64'
+gem 'bigdecimal'
+gem 'jekyll', '3.10.0'
+gem 'kramdown-parser-gfm'
+gem 'webrick', '~> 1.8'

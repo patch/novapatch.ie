@@ -11,6 +11,14 @@ Use the Ruby version in `.ruby-version`. Build with:
 bundle exec jekyll build
 ```
 
+If `bundle` or `ruby` resolves to `/usr/bin/...`, the shell has not loaded
+chruby correctly. For Codex or other automation shells, run the command through
+interactive zsh so the existing `~/.zshrc` chruby setup is loaded:
+
+```sh
+zsh -ic 'bundle exec jekyll build'
+```
+
 Treat `_site/` as generated output. Edit source files instead.
 
 ## Sitemap Maintenance
