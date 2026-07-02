@@ -103,6 +103,16 @@ In natural-language prose, use these Unicode quotation mark characters:
 Preserve ASCII apostrophe U+0027 and quotation mark U+0022 where they are
 required by code, data formats, or markup syntax.
 
+Use literal UTF-8 characters instead of HTML character entity references
+whenever the literal character is allowed by the surrounding HTML or XHTML
+syntax. Use entity references only when they are technically required for
+conforming markup or to avoid changing how the markup is parsed.
+
+This rule also applies to intentional Unicode spacing characters such as
+non-breaking spaces. Prefer semantic markup or CSS when spacing behaviour is
+presentational; when the character itself is content, use the literal UTF-8
+character unless an entity reference is required for conforming markup.
+
 Prefer sparse punctuation in prose. Commas, semicolons, colons, and em dashes
 are all allowed, but omit them when the sentence remains clear without them.
 Use commas lightly, avoid semicolons unless they genuinely improve clarity, and
