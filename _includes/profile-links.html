@@ -1,8 +1,8 @@
 <div class="profile-links">
-  <span>{{ include.label }}:</span>
+  <span>{{ include.label | escape }}:</span>
   <ul>
     {% for link in site.data.profile_links %}
-    <li><a href="{{ link.url }}" rel="me">{{ link.title }}</a></li>
+    <li><a href="{{ link.url | escape }}" rel="me">{{ link.title | escape }}</a></li>
     {% endfor %}
   </ul>
 </div>

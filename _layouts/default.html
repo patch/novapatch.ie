@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="{{ page.language }}">
+<html lang="{{ page.language | default: 'en' | escape }}">
   {% include head.html %}
   <body>
     <div class="page-content">

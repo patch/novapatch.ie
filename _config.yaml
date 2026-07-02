@@ -13,6 +13,20 @@ linkedin:    novapatch
 encoding:    utf-8
 markdown:    kramdown
 timezone:    Europe/Dublin
+disable_disk_cache: true
+sass:
+  sourcemap: never
+exclude:
+  - AGENTS.md
+  - README.md
+  - _site/
+  - .jekyll-cache/
+  - .sass-cache/
+  - Gemfile
+  - Gemfile.lock
+  - gemfiles/
+  - node_modules/
+  - vendor/
 locales:
   en: en_IE
   eo: eo_001

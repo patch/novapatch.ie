@@ -1,22 +1,37 @@
+  {% assign page_language = page.language | default: "en" -%}
+  {% assign head_title = include.title | default: page.title -%}
+  {% assign document_title = include.document_title -%}
+  {% unless document_title -%}
+    {% capture document_title %}{% if head_title %}{{ head_title }} {{ site.head_title_separator | default: "|" }} {% endif %}{{ site.title }}{% endcapture -%}
+  {% endunless -%}
+  {% assign meta_description = include.description | default: page.description -%}
+  {% assign canonical_path = include.canonical_path | default: page.url -%}
+  {% assign canonical_url = canonical_path | absolute_url -%}
+  {% assign stylesheet = include.stylesheet | default: "/css/main.css" -%}
+  {% assign author_path = "/" | append: page_language | append: "/" | append: site.about[page_language] -%}
   <head>
     <meta charset="utf-8">
-    {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+    {% if meta_description %}<meta name="description" content="{{ meta_description | escape }}">{% endif %}
     <meta name="citation_author" content="Patch, Nova">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    {% if page.description %}<meta property="og:description" content="{{ page.description }}">{% endif %}
-    <meta property="og:locale" content="{{ site.locales[page.language] }}">
-    <meta property="og:site_name" content="{{ site.title }}">
-    <meta property="og:title" content="{{ page.title }}">
+    {% if meta_description %}<meta property="og:description" content="{{ meta_description | escape }}">{% endif %}
+    <meta property="og:locale" content="{{ site.locales[page_language] | escape }}">
+    <meta property="og:site_name" content="{{ site.title | escape }}">
+    <meta property="og:title" content="{{ head_title | default: site.title | escape }}">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
-    <title>{% if page.title %}{{ page.title }} {{ site.head_title_separator | default: "|" }} {% endif %}{{ site.title }}</title>
-    <link rel="alternate" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}" hreflang="{{ page.language }}">
+    <meta property="og:url" content="{{ canonical_url | escape }}">
+    <title>{{ document_title | strip | escape }}</title>
+    <link rel="alternate" href="{{ canonical_url | escape }}" hreflang="{{ page_language | escape }}">
+    {% if include.x_default_path -%}
+    <link rel="alternate" href="{{ include.x_default_path | absolute_url | escape }}" hreflang="x-default">
+    {% endif -%}
     {% for alternate in page.alternates -%}
-    <link rel="alternate" href="{{ site.url }}/{{ alternate[0] }}/{{ alternate[1] }}" hreflang="{{ alternate[0] }}">
+    {% assign alternate_path = "/" | append: alternate[0] | append: "/" | append: alternate[1] -%}
+    <link rel="alternate" href="{{ alternate_path | absolute_url | escape }}" hreflang="{{ alternate[0] | escape }}">
     {% endfor -%}
-    <link rel="author" href="{{site.url}}/{{ page.language }}/{{ site.about[page.language] }}">
-    <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
-    <link rel="stylesheet" href="/css/main.css">
-    <link rel="stylesheet" href="/css/elements.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&display=swap">
+    <link rel="author" href="{{ author_path | absolute_url | escape }}">
+    <link rel="canonical" href="{{ canonical_url | escape }}">
+    <link rel="stylesheet" href="{{ stylesheet | relative_url | escape }}">
+    <link rel="stylesheet" href="{{ "/css/elements.css" | relative_url | escape }}">
+    <link rel="stylesheet" href="{{ "https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&display=swap" | escape }}">
   </head>
