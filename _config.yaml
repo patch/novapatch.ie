@@ -42,5 +42,7 @@ site_nav:
     - title: About
       url: /en/about
       rel: author
+    - title: Now
+      url: /en/now
     - title: Talks
       url: /en/talks
