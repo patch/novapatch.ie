@@ -16,6 +16,10 @@ timezone:    Europe/Dublin
 disable_disk_cache: true
 sass:
   sourcemap: never
+  silence_deprecations:
+    - import
+    - slash-div
+    - global-builtin
 exclude:
   - AGENTS.md
   - README.md
