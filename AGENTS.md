@@ -1,6 +1,6 @@
 # Repository Instructions
 
-This is Nova Patch’s personal Jekyll site at `https://novapatch.ie`, with writing, talks, research, and a few static project pages.
+This is Nova Patch’s personal Jekyll site at <https://novapatch.ie>, with writing, talks, research, and a few static project pages.
 
 ## Build and Generated Files
 
@@ -17,6 +17,14 @@ zsh -ic 'bundle exec jekyll build'
 ```
 
 Treat `_site/` as generated output. Edit source files instead.
+
+## Deployment
+
+GitHub Pages deployment uses the custom GitHub Actions workflow at `.github/workflows/jekyll.yml`. The repository’s Pages source should remain configured to GitHub Actions, not the legacy branch-based Pages builder.
+
+The workflow installs the Ruby and Bundler environment from `.ruby-version`, `Gemfile`, and `Gemfile.lock`, then runs `bundle exec jekyll build` and uploads `_site/` as the Pages artifact. This means the site may use the modern Sass toolchain pinned by the bundle, including Sass module syntax such as `@use`.
+
+Do not rewrite Sass to legacy GitHub Pages compatibility syntax solely for deployment unless the repository is intentionally moved back to the legacy branch builder.
 
 ## Sitemap Maintenance
 

@@ -11,3 +11,5 @@ Use the Ruby version in `.ruby-version`, then build with:
 ```sh
 bundle exec jekyll build
 ```
+
+Deployment to GitHub Pages is handled by GitHub Actions in `.github/workflows/jekyll.yml`. The workflow installs the bundled Ruby dependencies and uploads the generated `_site/` artifact to Pages.
