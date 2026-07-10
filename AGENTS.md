@@ -1,85 +1,37 @@
 # Repository Instructions
 
-This is Nova Patch’s personal Jekyll site at <https://novapatch.ie>, with writing, talks, research, and a few static project pages.
+Nova Patch’s personal Jekyll site lives at <https://novapatch.ie>. It contains human-authored writing, talks, research, and static project pages.
 
-## Build and Generated Files
+## Build
 
-Use the Ruby version in `.ruby-version`. Build with:
+Use the Ruby version in `.ruby-version`. Build with `bundle exec jekyll build`; in Codex or other automation shells, use `zsh -ic 'bundle exec jekyll build'` if `ruby` or `bundle` resolves to `/usr/bin/...`, because chruby has not loaded. Treat `_site/` as generated output and edit source files instead.
 
-```sh
-bundle exec jekyll build
-```
+GitHub Pages deploys through `.github/workflows/jekyll.yml`, which installs the bundle and uploads `_site/`. Keep Pages on the GitHub Actions source. Do not rewrite modern Sass, including `@use`, for legacy Pages compatibility unless deployment intentionally moves back to the branch builder.
 
-If `bundle` or `ruby` resolves to `/usr/bin/...`, the shell has not loaded chruby correctly. For Codex or other automation shells, run the command through interactive zsh so the existing `~/.zshrc` chruby setup is loaded:
+## Sitemap
 
-```sh
-zsh -ic 'bundle exec jekyll build'
-```
+When editing indexable pages, keep `sitemap.xml` in sync. Update `<lastmod>` only for significant page-specific changes: main content, page-specific structured data, or page-specific links. Do not update it for formatting, comments, build/config changes, shared layouts/navigation/styles, minor typo fixes, or copyright/date boilerplate. Use the current local date in `YYYY-MM-DD` when an update is warranted.
 
-Treat `_site/` as generated output. Edit source files instead.
+When adding a new indexable page, add a `<url>` with the canonical `https://novapatch.ie` URL and a `<lastmod>` from the publication date, or today if none is known. Preserve sitemap order: `/en/` first; localized About pages grouped with reciprocal `xhtml:link` alternates; remaining `/en/...` pages alphabetically; other path groups after existing grouped entries, alphabetically unless local order says otherwise.
 
-## Deployment
+## Authorship
 
-GitHub Pages deployment uses the custom GitHub Actions workflow at `.github/workflows/jekyll.yml`. The repository’s Pages source should remain configured to GitHub Actions, not the legacy branch-based Pages builder.
-
-The workflow installs the Ruby and Bundler environment from `.ruby-version`, `Gemfile`, and `Gemfile.lock`, then runs `bundle exec jekyll build` and uploads `_site/` as the Pages artifact. This means the site may use the modern Sass toolchain pinned by the bundle, including Sass module syntax such as `@use`.
-
-Do not rewrite Sass to legacy GitHub Pages compatibility syntax solely for deployment unless the repository is intentionally moved back to the legacy branch builder.
-
-## Sitemap Maintenance
-
-When editing indexable pages, keep `sitemap.xml` in sync.
-
-Update a page’s `<lastmod>` only when the edit is a significant update to that page, following Google’s sitemap guidance. Significant updates generally include changes to main content, page-specific structured data, or page-specific links within the main content. Do not update `<lastmod>` for incidental edits such as formatting-only changes, comments, build/config changes, shared navigation, shared layout or component changes, site-wide style changes, typo-only fixes that do not materially change meaning, or copyright/date boilerplate.
-
-Use the current local date in `YYYY-MM-DD` format when a `<lastmod>` update is warranted.
-
-When adding a new indexable page:
-
-1. Add a new `<url>` entry to `sitemap.xml`.
-2. Use the canonical absolute URL under `https://novapatch.ie`.
-3. Set `<lastmod>` to the page’s publication date, or the current local date if no separate publication date is known.
-4. Preserve the existing sitemap sort order:
-   - `/en/` first.
-   - The localized About pages next, grouped together with their `xhtml:link` alternates.
-   - Remaining `/en/...` pages sorted alphabetically by URL.
-   - If adding sitemap-covered pages outside those groups, place them after the existing grouped entries and sort them alphabetically by URL within their path group unless the surrounding sitemap has established a more specific order.
-
-For localized pages with alternates, include the same reciprocal `xhtml:link rel="alternate"` block on every URL in that alternate set.
-
-Reference: Google Search Central says Google uses `<lastmod>` when it is consistently and verifiably accurate, and that it should reflect the last significant update to the page.
-
-## Authorship and AI Assistance
-
-This repository represents human-authored personal and public knowledge management. The site owner’s primary focus is human knowledge management, not AI-generated publication.
-
-Generative AI may be used for Webmaster assistance, including editing support, formatting, site maintenance, administrative text generation, metadata updates, and other implementation or maintenance tasks. Do not treat the presence of prose-style instructions as permission to generate primary site content on the owner’s behalf.
-
-When assisting with prose, preserve the owner’s meaning, voice, authorship, and intent. Suggest or apply edits only as editorial or maintenance assistance unless explicitly asked to draft new content.
+Use AI only for webmaster, editing, formatting, metadata, and maintenance help unless explicitly asked to draft new primary content. Preserve the owner’s meaning, voice, authorship, and intent.
 
 ## Prose Style
 
-Apply these rules to the site owner’s English prose. Do not alter quoted text, external titles, names, code, data formats, machine-readable metadata, or any other text where exact wording or syntax matters.
+Apply this only to the owner’s English prose. Do not change exact text in quotes, titles, names, code, data formats, metadata, or syntax-sensitive markup.
 
-Use paragraph-as-block Markdown for prose. Keep each paragraph as a single soft-wrapped source block, separated by a blank line. Reserve hard line breaks for structural Markdown, intentional layout, code, tables, verse, addresses, and other cases where the line break itself carries meaning. Treat block HTML embedded in Markdown as an HTML island: preserve HTML-style indentation inside multiline elements, including child text and continuation attributes.
+Use paragraph-as-block Markdown: one soft-wrapped source block per paragraph, blank lines between paragraphs. Keep hard line breaks only when structurally meaningful. Treat block HTML in Markdown as an HTML island and preserve its indentation, child text, and continuation attributes.
 
-Use Irish English (`en-IE`) spelling by default, with Oxford spelling (`en-GB-oed`) overrides where Oxford spelling differs from standard British English. In practice, prefer `-ize`, `-ization`, and `-yze` forms when Oxford spelling calls for them, while otherwise following Irish/British usage. Reference: https://en.wikipedia.org/wiki/Oxford_spelling
+Use Irish English with Oxford spelling where it differs: prefer `-ize`, `-ization`, and `-yze`, otherwise Irish/British usage. Write prose dates as `10 June 2026`; use ISO dates for filenames, front matter, sitemaps, structured data, code, and other machine-readable text.
 
-Write dates in natural-language prose in the usual Irish format, e.g. `10 June 2026`. Use ISO 8601 dates such as `2026-06-10` where technically appropriate, including structured data, filenames, front matter, sitemaps, machine-readable metadata, and code.
+In natural prose, use Unicode quotes: `‘` and `’`, including apostrophes; `“` and `”`. Preserve ASCII `'` and `"` where code, data, or markup requires them.
 
-In natural-language prose, use these Unicode quotation mark characters:
+Use literal UTF-8 characters, including intentional spacing characters, whenever valid in the surrounding HTML/XHTML. Use entities only when required for conforming markup or to preserve parsing.
 
-- `‘` U+2018 LEFT SINGLE QUOTATION MARK for opening single quotation marks.
-- `’` U+2019 RIGHT SINGLE QUOTATION MARK for apostrophes and closing single quotation marks.
-- `“` U+201C LEFT DOUBLE QUOTATION MARK for opening double quotation marks.
-- `”` U+201D RIGHT DOUBLE QUOTATION MARK for closing double quotation marks.
+Prefer sparse punctuation. Use en dashes for ranges and relationships such as `Dublin–London`. Use em dashes only for true breaks in thought, not as default sentence joiners.
 
-Preserve ASCII apostrophe U+0027 and quotation mark U+0022 where they are required by code, data formats, or markup syntax.
+## Token Use
 
-Use literal UTF-8 characters instead of HTML character entity references whenever the literal character is allowed by the surrounding HTML or XHTML syntax. Use entity references only when they are technically required for conforming markup or to avoid changing how the markup is parsed.
-
-This rule also applies to intentional Unicode spacing characters such as non-breaking spaces. Prefer semantic markup or CSS when spacing behaviour is presentational; when the character itself is content, use the literal UTF-8 character unless an entity reference is required for conforming markup.
-
-Prefer sparse punctuation in prose. Commas, semicolons, colons, and em dashes are all allowed, but omit them when the sentence remains clear without them. Use commas lightly, avoid semicolons unless they genuinely improve clarity, and prefer plain sentence rhythm over heavily marked structure.
-
-Use en dashes and em dashes according to *The Chicago Manual of Style*. Use an en dash for numeric ranges, date ranges, and relationships such as `Dublin–London`. Use an em dash only for a true break in thought or parenthetical interruption. Do not use em dashes as a default sentence joiner.
+Keep always-loaded instructions concise. Prefer targeted file reads and avoid adding broad standing guidance for work that can instead be requested after meaningful change batches.
