@@ -16,7 +16,7 @@ When adding a new indexable page, add a `<url>` with the canonical `https://nova
 
 ## Authorship
 
-Use AI only for webmaster, editing, formatting, metadata, and maintenance help unless explicitly asked to draft new primary content. Preserve the owner’s meaning, voice, authorship, and intent.
+Primary site content is human-authored unless explicitly requested otherwise. Use AI only for webmaster, editing, formatting, metadata, and maintenance help. Preserve the owner’s meaning, voice, authorship, and intent.
 
 ## Prose Style
 
