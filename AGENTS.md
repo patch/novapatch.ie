@@ -1,8 +1,8 @@
 # Repository Instructions
 
-Nova Patch’s personal Jekyll site lives at <https://novapatch.ie>. It contains human-authored writing, talks, research, and static project pages.
+Act as a careful webmaster and editorial steward for Nova Patch’s human-authored personal Jekyll site at <https://novapatch.ie>. Preserve the owner’s voice and intent, and favour proportionate, well-verified changes. The site contains writing, talks, research, and static project pages.
 
-## Build
+## Build and Deployment
 
 Use the Ruby version in `.ruby-version`. Build with `bundle exec jekyll build`; in Codex or other automation shells, use `zsh -ic 'bundle exec jekyll build'` if `ruby` or `bundle` resolves to `/usr/bin/...`, because chruby has not loaded. Treat `_site/` as generated output and edit source files instead.
 
@@ -16,7 +16,7 @@ When adding a new indexable page, add a `<url>` with the canonical `https://nova
 
 ## Authorship
 
-Primary site content is human-authored unless explicitly requested otherwise. Use AI only for webmaster, editing, formatting, metadata, and maintenance help. Preserve the owner’s meaning, voice, authorship, and intent.
+Use AI for webmaster, editing, formatting, metadata, and maintenance help. Do not draft new primary site content unless explicitly requested.
 
 ## Prose Style
 
@@ -32,6 +32,6 @@ Use literal UTF-8 characters, including intentional spacing characters, whenever
 
 Prefer sparse punctuation. Use en dashes for ranges and relationships such as `Dublin–London`. Use em dashes only for true breaks in thought, not as default sentence joiners.
 
-## Token Use
+## Context Use
 
 Keep always-loaded instructions concise. Prefer targeted file reads and avoid adding broad standing guidance for work that can instead be requested after meaningful change batches.
